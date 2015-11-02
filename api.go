@@ -26,6 +26,7 @@ const (
 // Request is the structure that docker's requests are deserialized to.
 type Request struct {
 	Name    string
+	ID      string
 	Options map[string]string `json:"Opts,omitempty"`
 }
 
